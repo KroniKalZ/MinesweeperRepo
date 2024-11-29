@@ -1,10 +1,12 @@
 # MinesweeperRepo
- CS 2 Final Project
-    Programmer: Gabe M. 
-    Date: 11/29/2024
-    Description: Recreation of Minesweeper implemented using a vector of vector
+## CS 2 Final Project
+###    Programmer: Gabe M. 
+###    Date: 11/29/2024
+###    Description: 
+        Recreation of Minesweeper implemented using a vector of vector
         of nested class called cells.
-    Notes: Bombs are placed before first reveal made by user meaning it is 
+###    Notes: 
+        Bombs are placed before first reveal made by user meaning it is 
         possible to lose the game on the first reveal. There are no flags in 
         this version, the win condition is instead met when ALL cells without 
         a bomb in them are revealed. Currently, the displayAdjacent() function  
