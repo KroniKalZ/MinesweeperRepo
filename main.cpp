@@ -1,5 +1,6 @@
-# MinesweeperRepo
- CS 2 Final Project
+#include <iostream>
+#include "Minesweeper.h"
+/* 
     Programmer: Gabe M. 
     Date: 11/29/2024
     Description: Recreation of Minesweeper implemented using a vector of vector
@@ -14,3 +15,10 @@
         If this is not desired and you instead wish to play the game as intended,
         comment out or delete the displayAdjacent() function call from the 
         constructor.
+*/
+
+int main(){
+	Minesweeper game;
+	game.play();
+	return 0;
+} 
